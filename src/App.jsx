@@ -17,9 +17,9 @@ function App() {
       if (input) {
         setInput(evaluate(input));
       } else {
-        alert('please enter values to perform the calculations')
+        alert('please enter values to perform the calculations');
       }
-    }
+    };
 
   return (
     <div className="App">
